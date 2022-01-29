@@ -14,7 +14,7 @@ class NoticiaController extends Controller
         public function index()
     {
         return view('noticias.index', [
-            'noticias' => Noticia::where('status', Noticia::STATUS_ATIVO)->get()
+            'noticias' => Noticia::paginate(5)
         ]);
     }
 

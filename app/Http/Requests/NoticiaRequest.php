@@ -3,7 +3,7 @@
 namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
-use Illuminate\Valldation\Rule;
+use Illuminate\Validation\Rule;
 
 class NoticiaRequest extends FormRequest
 {
